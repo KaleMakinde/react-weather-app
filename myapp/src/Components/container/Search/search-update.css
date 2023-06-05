@@ -1,0 +1,109 @@
+.search-update {
+    position: fixed;
+    top: 50%;
+    right: auto;
+    /* left:auto; */
+    color:white;
+    transform: translate(-10px,-390px) hidden;
+    /* transform: translate(100%, -50%); */
+    background-color: #1E213A;
+    padding: 10px;
+    z-index: 999;
+    width:464px;
+    height: 794.8px;
+    margin-top: -1rem;
+
+    /* left: 0px;
+    top: 0px; */
+    margin-left: -38.6rem;
+   
+
+
+  }
+  /* .search-update-content:hover{
+    background-color:  #1E213A;
+  } */
+  
+  .search-update.visible {
+    transform: translate(0, -50%);
+  }
+  
+  .search-update-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-icon {
+    margin-left: 25rem;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
+  
+  /* Add any other styles as needed */
+  /* .search-card{
+    margin-top: 5rem;
+
+  } */
+  .input-search{
+    margin-top: 5rem;
+
+  }
+.text-input{
+    height: 48px;
+    width: 268px;
+    left: 47px;
+    top: 82px;
+    border-radius: 0px;
+    margin-left: 2rem;
+
+  }
+
+  .btn-search{
+    height: 48px;
+    width: 86px;
+    left: 327px;
+    top: 82px;
+    border-radius: 0px;
+    background: #89CFF0;
+    
+    cursor: pointer;
+    margin-left: 1rem;
+
+
+  }
+.fi-icon{
+    
+    height: 1em;
+    font-size: 25px;
+    outline: none;
+   border: none;
+
+}
+
+.bata{
+    background: #6E707A;
+
+    height: 40px;
+width: 161px;
+left: 46px;
+top: 42px;
+border-radius: 0px;
+Fill: Solid #6E707A
+drop-shadow( 0px 4px 4px 0px #00000040);
+margin-bottom: -7rem;
+margin-top: 4rem;
+margin-left: 3rem;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+border: 40px solid black;
+box-shadow: 5px 7px rgba(0,0,0,0.5);
+  
+
+
+}
+.bata:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }

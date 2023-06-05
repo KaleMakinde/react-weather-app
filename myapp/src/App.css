@@ -1,38 +1,1181 @@
-.App {
-  text-align: center;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background{
+  width: 100%; 
+  height: 100vh; 
+  overflow: hidden;
+} 
+
+/* wrapper */
+.wrapball{
+  float: right;
+  display: flex; 
+  /* justify-content: space-around; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CLOGO{
+width: 40px;
+height: 40px;
+left: 1223px;
+top: 42px;
+background: #E7E7EB;
+border-radius: 54px;
+cursor: pointer;
+box-shadow: 0 2px 4px darkslategray;
+cursor: pointer;
+transition: all 0.2s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CLOGO:active {
+background-color: #48abe0;
+box-shadow: 0 0 2px darkslategray;
+transform: translateY(2px);
+}
+.texty1{
+  font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 10px;
+padding-left: 6px;
+}
+.texty2{
+  font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 10px;
+padding-left: -5px;
+
+}
+.FLOGO{
+width: 40px;
+height: 40px;
+left: 1275px;
+top: 42px;
+margin-left: 12px;
+background: #585676;
+border-radius: 54px;
+cursor: pointer;
+box-shadow: 0 2px 4px darkslategray;
+cursor: pointer;
+transition: all 0.2s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.FLOGO:active {
+background-color: #48abe0;
+box-shadow: 0 0 2px darkslategray;
+transform: translateY(2px);
+}
+
+
+.container{
+position: absolute;
+width: 459px;
+height: 1023px;
+left: 0px;
+top: 0px;
+background: #1E213A;
+}
+
+.wrapper{
+  position: absolute;
+width: 981px;
+height: 1023px;
+left: 459px;
+top: 0px;
+
+background: #100E1D;
+}
+
+/* ---------------------card1---------------------------------- */
+.card1:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+.card1{
+width: 130px;
+height: 200px;
+left: 613px;
+top: 148px;
+margin-left: 5rem;
+background: #1E213A;
+cursor: pointer;
+--s: 130px;   /* the size of the image */
+--b: 8px;     /* the border thickness*/
+--g: 14px;    /* the gap */
+--c: #4ECDC4; /* the color */
+
+width: var(--s);
+aspect-ratio: 1;
+outline: calc(var(--s)/2) solid #1E213A;
+outline-offset: calc(var(--s)/-2);
+cursor: pointer;
+transition: 0.3s;
+}
+.iconwrap{
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.clearpng{
+  width: 56.44px;
+  height: 62px;
+  position: absolute;
+
+}
+.cardtxt{
+width: 76px;
+height: 19px;
+left: 635px;
+top: 166px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+padding-top: 15px;
+padding-left: 28px;
+
+/* identical to box height */
+
+text-align: center;
+
+color: #E7E7EB;
+
+}
+.sleetpng{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-left: -2px;
+  margin-top: 10px;
+}
+/* celts */
+
+.ade{
+  margin-top: 9px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+}
+.capcelts2{
+  width: 40px;
+  height: 20px;
+  
+}
+.celts16{
+  width: 33px;
+height: 19px;
+left: 633px;
+top: 288px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+
+
+color: #E7E7EB;
 }
 
-.App-link {
-  color: #61dafb;
+.celts11{
+  
+  width: 30px;
+height: 19px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+
+/* identical to box height */
+
+
+color: #A09FB1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* --------------card2------------------------- */
+.card2{
+  width: 130px;
+height: 200px;
+left: 613px;
+top: 148px;
+margin-left: 2rem;
+background: #1E213A;
+cursor: pointer;
+--s: 130px;   /* the size of the image */
+--b: 8px;     /* the border thickness*/
+--g: 14px;    /* the gap */
+--c: #4ECDC4; /* the color */
+
+width: var(--s);
+aspect-ratio: 1;
+outline: calc(var(--s)/2) solid #1E213A;
+outline-offset: calc(var(--s)/-2);
+cursor: pointer;
+transition: 0.3s;
 }
+.card2:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+.iconwrap2{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.clearpng1{
+  width: 56.44px;
+  height: 62px;
+  position: absolute;
+
+}
+.sleetpng1{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-left: -2px;
+  margin-top: 10px;
+}
+.hade{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.selts16{
+  width: 33px;
+height: 19px;
+left: 633px;
+top: 288px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+
+
+color: #E7E7EB;
+}
+
+.selts11{
+  
+  width: 30px;
+height: 19px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+
+/* identical to box height */
+
+
+color: #A09FB1;
+}
+.hade{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.cardtxt2{
+  font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+  padding-top: 15px;
+  padding-left: 7px;
+  
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #E7E7EB;
+  
+  }
+
+  /* --------------------------card3------------------------------- */
+
+
+  .card3{
+    width: 130px;
+  height: 200px;
+  left: 613px;
+  top: 148px;
+  margin-left: 2rem;
+  background: #1E213A;
+  cursor: pointer;
+  --s: 130px;   /* the size of the image */
+--b: 8px;     /* the border thickness*/
+--g: 14px;    /* the gap */
+--c: #4ECDC4; /* the color */
+
+width: var(--s);
+aspect-ratio: 1;
+outline: calc(var(--s)/2) solid #1E213A;
+outline-offset: calc(var(--s)/-2);
+cursor: pointer;
+transition: 0.3s;
+  }
+  .card3:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  .iconwrap3{
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .clearpng2{
+    width: 56.44px;
+    height: 62px;
+    position: absolute;
+  
+  }
+  .sleetpng2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: -2px;
+    margin-top: 10px;
+  }
+  .fade{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .velts16{
+    width: 33px;
+  height: 19px;
+  left: 633px;
+  top: 288px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  
+  /* identical to box height */
+  
+  
+  color: #E7E7EB;
+  }
+  
+  .belts11{
+    
+    width: 30px;
+  height: 19px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  
+  
+  /* identical to box height */
+  
+  
+  color: #A09FB1;
+  }
+  .hade{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cardtxt3{
+    font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+    padding-top: 15px;
+    padding-left: 7px;
+    
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #E7E7EB;
+    
+    }
+
+    /* -------------------------------card4------------------------------ */
+
+    .card4{
+      width: 130px;
+    height: 200px;
+    left: 613px;
+    top: 148px;
+    margin-left: 2rem;
+    background: #1E213A;
+    cursor: pointer;
+    --s: 130px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #4ECDC4; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #1E213A;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    .card4:hover {
+      outline: var(--b) solid var(--c);
+      outline-offset: var(--g);
+    }
+    .iconwrap4{
+      margin-left: 1rem;
+      margin-top: 1rem;
+    }
+    .lightcloud{
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin-left: -2px;
+      margin-top: -3px;
+    }
+    .tade{
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .qelts16{
+      width: 33px;
+    height: 19px;
+    left: 633px;
+    top: 288px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    
+    
+    color: #E7E7EB;
+    }
+    
+    .welts11{
+      
+      width: 30px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    
+    /* identical to box height */
+    
+    
+    color: #A09FB1;
+    }
+  
+    .cardtxt4{
+      font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+      padding-top: 15px;
+      padding-left: 7px;
+      
+      /* identical to box height */
+      
+      text-align: center;
+      
+      color: #E7E7EB;
+      
+      }
+
+      /* -------------------------card5---------------------------------------------- */
+      .card5{
+        width: 130px;
+      height: 200px;
+      left: 613px;
+      top: 148px;
+      margin-left: 2rem;
+      background: #1E213A;
+      cursor: pointer;
+      --s: 130px;   /* the size of the image */
+      --b: 8px;     /* the border thickness*/
+      --g: 14px;    /* the gap */
+      --c: #4ECDC4; /* the color */
+      
+      width: var(--s);
+      aspect-ratio: 1;
+      outline: calc(var(--s)/2) solid #1E213A;
+      outline-offset: calc(var(--s)/-2);
+      cursor: pointer;
+      transition: 0.3s;
+      }
+      .card5:hover {
+        outline: var(--b) solid var(--c);
+        outline-offset: var(--g);
+      }
+      .iconwrap5{
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+      .heavyrain{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        margin-left: -2px;
+        margin-top: -3px;
+      }
+      .dade{
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-around;
+      }
+      .vibes16{
+        width: 33px;
+      height: 19px;
+      left: 633px;
+      top: 288px;
+      
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      
+      /* identical to box height */
+      
+      
+      color: #E7E7EB;
+      }
+      
+      .vibes11{
+        
+        width: 30px;
+      height: 19px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      
+      
+      /* identical to box height */
+      
+      
+      color: #A09FB1;
+      }
+    
+      .cardtxt5{
+        font-family: Raleway;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+        padding-top: 15px;
+        padding-left: 4px;
+        
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #E7E7EB;
+        
+        }
+/* --------------------Theb whole card of five  */
+
+        .cardy{
+          display: flex;
+          justify-content: center;
+          /* justify-content: space-between; */
+          margin-top: 8rem;
+          margin-left: -2.4rem;
+        }
+/* -----------------temp----------------------------- */
+.tempcard{
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+
+
+/* ------------------HIGHLIGHTS------------- */
+.txtlight{
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+width: 220px;
+height: 28px;
+left: 613px;
+top: 397px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin-left: 8rem;
+padding-top: 3rem;
+margin-bottom: -3rem;
+margin-top: 4rem;
+
+
+color: #E7E7EB;
+
+
+}
+.status{
+  margin-top: 6rem;
+}
+
+.windy{
+width: 328px;
+height: 204px;
+left: 613px;
+top: 457px;
+margin-left: 8rem;
+background: #1E213A;
+-webkit-tap-highlight-color: transparent;
+  transform: scale(1.00);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
+}
+.windy:hover {
+  transform: scale(0.54);
+  background-color: rgb(1, 6, 11);
+}
+
+.windtxt{
+width: 90px;
+height: 19px;
+left: 737px;
+top: 479px;
+margin-left: 7rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+padding-top: 1rem;
+text-align: center;
+
+color: #E7E7EB;
+}
+
+.mph{
+  width: 113px;
+height: 75px;
+left: 725px;
+top: 504px;
+margin-left: 5rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+margin-top: 2rem;
+
+color: #E7E7EB;
+
+}
+
+.finder{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(-150deg);
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+.material-icons{
+  margin-top: 20px;
+  margin-left: 106px;
+color: #E7E7EB;
+transform: rotate(-195deg);
+
+}
+.wsw{
+  width: 38px;
+height: 16px;
+left: 781px;
+top: 610px;
+margin-top: -10px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #E7E7EB;
+margin-left: 10rem;
+}
+
+/* -----------------HUMIDITY---------------- */
+.humid{
+  margin-top: -13rem;
+}
+.box-humid{
+  width: 328px;
+  height: 204px;
+  left: 989px;
+  top: 457px;
+  margin-left: 34rem;
+  margin-top: -7rem;
+  margin-bottom: 4rem;
+  background: #1E213A;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transform: scale(1.00);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box-humid:hover {
+  transform: scale(0.54);
+  background-color: rgb(1, 6, 11);
+}
+
+
+.txt-humid{
+width: 69px;
+height: 19px;
+left: 1119px;
+top: 479px;
+margin-left: 8rem;
+padding-top: 1rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #E7E7EB;
+}
+.numb-humid{
+  width: 101px;
+height: 75px;
+left: 1101px;
+top: 509px;
+margin-left: 7rem;
+margin-top: 1.5rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+color: #E7E7EB;
+}
+
+.zero{
+  width: 8px;
+height: 14px;
+left: 1039px;
+top: 596px;
+margin-left: 4rem;
+padding-top: 1.1rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A09FB1;
+}
+.fifty{
+  width: 15px;
+height: 14px;
+left: 1147px;
+top: 596px;
+margin-left: 10.5rem;
+margin-bottom: -0.7rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A09FB1;
+}
+.hundred{
+  width: 21px;
+height: 14px;
+left: 1243px;
+top: 596px;
+margin-left: 16.7rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A09FB1;
+}
+.line-bar{
+  width: 185px;
+height: 8px;
+left: 1038px;
+top: 612px;
+background: #FFEC65;
+border-radius: 80px;
+margin-left: 4rem;
+
+
+}
+.line-bar2{
+  width: 50px;
+height: 8px;
+left: 1038px;
+top: 612px;
+background: #E7E7EB;
+border-radius: 80px;
+margin-left: 15rem;
+margin-top: -0.5rem;
+
+} 
+.percent{
+  width: 10px;
+height: 14px;
+left: 1257px;
+top: 624px;
+margin-left: 17.5rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A09FB1;
+}
+
+/* -----------VISIBILITY------------------ */
+.visible{
+  width: 328px;
+height: 159px;
+left: 613px;
+top: 709px;
+margin-left: 8rem;
+background: #1E213A;
+
+-webkit-tap-highlight-color: transparent;
+transform: scale(1.00);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.visible:hover {
+  transform: scale(0.54);
+  background-color: rgb(1, 6, 11);
+}
+
+
+
+.vis-txt{
+  width: 63px;
+height: 19px;
+left: 751px;
+top: 731px;
+margin-left: 8rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+padding-top: 2rem;
+color: #E7E7EB;
+}
+.miles{
+  width: 197px;
+height: 75px;
+left: 683px;
+top: 756px;
+margin-left: 4rem;
+margin-top: 1rem;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 70px;
+text-align: center;
+
+color: #E7E7EB;
+}
+/*-------------------------- Airpressure------------------------- */
+.card-press{
+  width: 328px;
+height: 160px;
+left: 989px;
+top: 709px;
+margin-left: 34rem;
+background: #1E213A;
+margin-top: -10rem;
+cursor: pointer;
+-webkit-tap-highlight-color: transparent;
+transform: scale(1.00);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.card-press:hover {
+  transform: scale(0.54);
+  background-color: rgb(1, 6, 11);
+}
+
+
+
+.txt-press{
+  width: 90px;
+height: 19px;
+left: 1108px;
+top: 731px;
+margin-left: 8rem;
+padding-top: 2rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+color: #E7E7EB;
+}
+.mb-numb{
+  width: 186px;
+height: 75px;
+left: 1064px;
+top: 756px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 75px;
+text-align: center;
+margin-left: 4rem;
+margin-top: 1rem;
+color: #E7E7EB;
+
+}
+
+/* This contains the CSS for container and other components designs */
+
+/* Search CSS */
+/* CSS */
+
+/* -------------------------GPS CSS----- */
+.pointer:hover,
+.pointer:focus{
+  opacity: .75; 
+
+}
+.pointer{
+  margin-left: 17.8rem;
+  transform: rotate(10deg);
+  padding-top: 1.6rem;
+  cursor: pointer;
+
+}
+
+
+.sec{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 24rem;
+  margin-top: 3rem;
+  position: absolute;
+}
+.frank1{
+  opacity: 0.1;
+
+
+}
+.sass{
+  margin-left: -6.5rem;
+  margin-top: 1rem;
+}
+/* ----------------------------CSS FOR POINT--------------------- */
+
+.point{
+  margin-top: -4.7rem;
+  
+}
+.drop{
+  margin-top: 5rem;
+}
+
+/*------------------- UPDATE WEATHER CSS -------------------- */
+.up-wed{
+  margin-left: 8.6rem;
+  margin-top: -17rem;
+  width: 202px;
+  height: 234px;
+  left: 129px;
+  top: 191px;
+}
+
+/*-------------- UPDATECELTS--------------- */
+
+.celt-num{
+  width: 192px;
+  height: 169px;
+  left: 124px;
+  top: 512px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+  /* identical to box height */
+  margin-left: 9rem;
+  padding-top: 4rem;
+  
+  
+  color: #E7E7EB;
+}
+
+.celt-degree{
+width: 192px;
+height: 169px;
+left: 124px;
+top: 512px;
+margin-left: 18rem;
+margin-top: -1rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 100;
+font-size: 48px;
+line-height: 56.35px;
+  color: #A09FB1
+}
+
+/* ------------DISPLAY------------ */
+ .show{
+  width: 129px;
+  height: 42px;
+  left: 165px;
+  top: 768px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #A09FB1;
+  margin-left: 9rem;
+  margin-top: -3rem;
+
+ }
+
+ /* CURRENT CSS --------------- */
+ .curr-date{
+  /* position: absolute; */
+width: 51px;
+height: 21px;
+left: 148px;
+top: 897px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #88869D;
+margin-left: 10rem;
+padding-top: 4rem;
+
+ }
+
+ .sub-curr{
+
+width: 78px;
+height: 21px;
+left: 238px;
+top: 897px;
+margin-left: 3.5rem;
+margin-top: -1.2rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #88869D;
+ }
+.mapper{
+  /* margin-top: 5rem; */
+  transform: rotate(200deg);
+  position: absolute;
+  margin-left: -2.4rem;
+  margin-top: 0.5rem;
+  
+  
+}
+ .mapper-place{
+width: 68px;
+height: 21px;
+left: 200px;
+top: 950px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+color: #88869D;
+
+
+ }
+ .loc-finder{
+  margin-left: 12rem;
+  margin-top: 4rem;
+ }
+
+ 
+ 
+
